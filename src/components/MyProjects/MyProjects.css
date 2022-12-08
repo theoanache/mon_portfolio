@@ -1,0 +1,32 @@
+
+.PageProjects {
+    width: 100vw;
+    height: 70 vh;
+    display: flex;
+    justify-content: space-around;
+    color: var(--primary-color);
+}
+
+.Left {
+    border: 2px solid red;
+    margin-top: 10%;
+    width: 100%;
+    height: 30em;
+}
+.ProjetTitle {
+    width: 100px;
+}
+
+.LogicielsLinks {
+display: flex;
+justify-content: space-around;
+}
+
+.Rigth {
+    border: 2px solid green;
+    background: var(--thirteen-color);
+    margin-top: 10%;
+     width: 100%;
+    height: 30em;
+}
+

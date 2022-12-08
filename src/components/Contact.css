@@ -1,0 +1,110 @@
+.ContainerContact {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+ 
+  margin-right: 5%;
+}
+
+.PrenonsContact {
+  font-style: bold;
+}
+
+.ButtonEnvoyer {
+  margin-top: 10%;
+  color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+  height: 8vh;
+  width: 16vw;
+}
+
+.TextContactMe {
+  margin-top: 5%;
+  border: 2px solid green;
+  width: 40vw;
+  line-height: 2em;
+  text-align: end;
+  padding-right: 10%;
+}
+
+.Logo {
+    padding-right: 10%;
+    margin-top: 8%;
+}
+.SocialNetwork {
+    padding-right: 15%;
+    justify-content: center;
+    background: none;
+}
+.SocialNetwork img{
+  margin-top: 8%;
+  padding: 5%;
+  width: auto;
+  height: 8vh;
+}
+
+.Input {
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border: 1px solid red;
+}
+
+.Name {
+    height: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.Mail {
+    height: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.Message {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input input {
+  background-color: var(--fourthy-color);
+  height: 3vh;
+}
+
+.Message input {
+  height: 10em;
+}
+
+@media screen and ( max-width: 600px) {
+.ContainerContact {
+    flex-direction: column;
+     height: auto;
+  width: 100%;
+}
+.TextContactMe {
+  width: 95vw;
+  line-height: 2em;
+  text-align: end;
+  padding-right: 5%;
+}
+.Input {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.ButtonEnvoyer {
+  margin-top: 10%;
+  height: 8vh;
+  width: 60vw;
+  justify-content: center;
+  /* margin-left: 12%;
+  margin-right: 10%; */
+  margin-bottom: 30%;
+}
+.ContainerButton {
+    display: flex;
+    justify-content: center;
+}
+}

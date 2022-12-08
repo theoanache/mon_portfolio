@@ -1,0 +1,11 @@
+.cvContainer {
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv {
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

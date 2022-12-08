@@ -1,0 +1,68 @@
+.cacheButton {
+  height: 60px;
+  width: 180px;
+  z-index: 3;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 23%;
+}
+
+.ContainerSkills {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 16%;
+}
+
+.SkillsText {
+    width: 60vw ;
+    height: 40vh;
+    line-height: 2em;
+}
+
+.SkillsAnimation {
+    width: 100vw ;
+    height: 60vh;
+}
+
+.illustration {
+    margin-top:8%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.Macbook {
+    width: 50vw;
+    height: auto;
+}
+
+.SoftSkills {
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    line-height: 2em;
+    padding-left: 8%;
+}
+
+@media screen and ( max-width: 600px) {
+    .ContainerSkills {
+  flex-direction: column;
+  margin-left: 5%;
+}
+.illustration {
+    flex-direction: column;
+}
+.Macbook {
+    width: 100vw;
+    height: auto;
+}
+
+.SoftSkills p {
+    text-align: center;
+}
+}
