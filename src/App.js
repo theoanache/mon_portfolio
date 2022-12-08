@@ -10,7 +10,6 @@ import Portfolio from "./components/Homepage/Portfolio";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/projets" element={<MyProjects />} />

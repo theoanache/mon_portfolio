@@ -13,9 +13,9 @@ const Skills = () => {
           </h2>
           <p>
             Etant attiré par l'univers 3D, c'est avec évidence que j'ai cherchée
-            à allier mes connaissances obtenues au sein de l'école Pôle 3D avec le
-            développement web. Vous trouver un aperçu des différents logiciels
-            que j'ai pu utiliser.
+            à allier mes connaissances obtenues au sein de l'école Pôle 3D avec
+            le développement web. Vous trouver un aperçu des différents
+            logiciels que j'ai pu utiliser.
           </p>
         </div>
         <div className="SkillsAnimation">

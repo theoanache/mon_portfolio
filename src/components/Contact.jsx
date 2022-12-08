@@ -11,6 +11,14 @@ const Contact = () => {
           <h3 className="PrenonsContact"> Prenons contact ! </h3>
           <h3>Contactez moi par mail ou sur les réseaux sociaux !</h3>
         </div>
+        <div>
+          <iframe
+            src="https://my.spline.design/lowpolycharacterme-3239068a0373e101563438b2d64b7e20/"
+            frameborder="0"
+            width="100%"
+            height="100%"
+          ></iframe>
+        </div>
         {/* <div className="Logo">
           <img src={Logo} alt="logo" />
         </div> */}
@@ -19,7 +27,7 @@ const Contact = () => {
           <img src={Linkedin} alt="Linkedin" />
         </div>
       </div>
-      <div className="Input">
+      {/* <div className="Input">
         <div className="Name">
           <span> Nom</span>
           <input type="text" required="required" />
@@ -39,6 +47,28 @@ const Contact = () => {
             Envoyer
           </button>
         </div>
+      </div> */}
+      <div className="form">
+        <h1>Contactez moi</h1>
+        <form>
+          <div className="inputBox">
+            <input type="text" required="required" />
+            <span>Nom</span>
+          </div>
+          <div className="inputBox">
+            <input type="text" required="required" />
+            <span>Mail</span>
+          </div>
+          <div className="inputBox">
+            <textarea className="message" type="text" required="required" />
+            <span>Message</span>
+          </div>
+          <div>
+            <button type="button" className="button-envoyez">
+              Envoyez
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );
