@@ -13,6 +13,7 @@ import projet9 from "../../assets/ensemble-site-wild-festival.jpg";
 import projet10 from "../../assets/anim-meca.jpg";
 import projet11 from "../../assets/3D-stitch.jpg";
 import projet12 from "../../assets/reversal.jpg";
+import Projet from "./Tools/Data";
 
 const Projects = () => {
 
@@ -32,7 +33,11 @@ const Projects = () => {
           </NavLink>
         </div>
         <div className="ProjectsFlex">
-          <img className="ImgProject" src={projet1} alt={projet1} />
+          {Projet.map((element) => (
+           <NavLink to={`/projet/${element.id -1 }`}> <img className="ImgProject" src={element.img} alt={element.title} />
+          </NavLink> 
+          ))}
+          {/* <img className="ImgProject" src={projet1} alt={projet1} />
           <img className="ImgProject" src={projet2} alt={projet2} />
           <img className="ImgProject" src={projet3} alt={projet3} />
           <img className="ImgProject" src={projet4} alt={projet4} />
@@ -43,7 +48,7 @@ const Projects = () => {
           <img className="ImgProject" src={projet9} alt={projet9} />
           <img className="ImgProject" src={projet10} alt={projet10} />
           <img className="ImgProject" src={projet11} alt={projet11} />
-          <img className="ImgProject" src={projet12} alt={projet12} />
+          <img className="ImgProject" src={projet12} alt={projet12} /> */}
         </div>
       </div>
     </div>

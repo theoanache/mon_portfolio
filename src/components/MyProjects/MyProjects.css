@@ -1,32 +1,66 @@
+.Navbar {
+  margin-top: 0;
+  width: 100%;
+}
 
 .PageProjects {
-    width: 100vw;
-    height: 70 vh;
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    background:var(--fivethy-color);
+}
+
+.LeftPart {
+    margin-left: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent;
+}
+
+.LeftPart p {
+    background: transparent;
+}
+
+.LeftPart h2 {
+    background: transparent;
+}
+
+.LogicielLiens {
     display: flex;
     justify-content: space-around;
-    color: var(--primary-color);
+    background: transparent;
 }
 
-.Left {
-    border: 2px solid red;
-    margin-top: 10%;
-    width: 100%;
-    height: 30em;
-}
-.ProjetTitle {
-    width: 100px;
+.LogicielsPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: transparent;
 }
 
-.LogicielsLinks {
-display: flex;
-justify-content: space-around;
+.Logiciels {
+    background:var(--fivethy-color);
 }
 
-.Rigth {
-    border: 2px solid green;
-    background: var(--thirteen-color);
-    margin-top: 10%;
-     width: 100%;
-    height: 30em;
+.Logiciel{
+    height: 40px;
+    background:var(--fivethy-color);
 }
 
+.RightPart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
+
+.ImgProjet {
+  width: 90%;
+  height: auto;
+}
