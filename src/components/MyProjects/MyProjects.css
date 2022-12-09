@@ -23,8 +23,11 @@
   background: transparent;
 }
 
-.LeftPart p {
+.Description {
     background: transparent;
+    font-size: 16px;
+    color: grey;
+    line-height: 2em;
 }
 
 .LeftPart h2 {
@@ -51,6 +54,7 @@
 .Logiciel{
     height: 40px;
     background:var(--fivethy-color);
+    padding-left: 3px;
 }
 
 .RightPart {

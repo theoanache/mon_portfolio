@@ -16,15 +16,13 @@ import projet12 from "../../assets/reversal.jpg";
 import Projet from "./Tools/Data";
 
 const Projects = () => {
-
-
   return (
     <div id="Projects" className="container">
       <div className="ContainerChildren">
         <div className="TextExemple">
           <p>
-            Voici quelques exemples de projets réalisés, n’hésitez pas à aller les
-            voir
+            Voici quelques exemples de projets réalisés, n’hésitez pas à aller
+            les voir en cliquant sur le projet de votre choix
           </p>
           <NavLink to="/portfolio" target="_blank">
             <button type="button" className="ButtonVoirPlus">
@@ -34,21 +32,14 @@ const Projects = () => {
         </div>
         <div className="ProjectsFlex">
           {Projet.map((element) => (
-           <NavLink to={`/projet/${element.id -1 }`}> <img className="ImgProject" src={element.img} alt={element.title} />
-          </NavLink> 
+            <NavLink to={`/projet/${element.id - 1}`}>
+              <img
+                className="ImgProject"
+                src={element.img}
+                alt={element.title}
+              />
+            </NavLink>
           ))}
-          {/* <img className="ImgProject" src={projet1} alt={projet1} />
-          <img className="ImgProject" src={projet2} alt={projet2} />
-          <img className="ImgProject" src={projet3} alt={projet3} />
-          <img className="ImgProject" src={projet4} alt={projet4} />
-          <img className="ImgProject" src={projet5} alt={projet5} />
-          <img className="ImgProject" src={projet6} alt={projet6} />
-          <img className="ImgProject" src={projet7} alt={projet7} />
-          <img className="ImgProject" src={projet8} alt={projet8} />
-          <img className="ImgProject" src={projet9} alt={projet9} />
-          <img className="ImgProject" src={projet10} alt={projet10} />
-          <img className="ImgProject" src={projet11} alt={projet11} />
-          <img className="ImgProject" src={projet12} alt={projet12} /> */}
         </div>
       </div>
     </div>

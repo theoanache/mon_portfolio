@@ -7,6 +7,7 @@ import Navbar from "../Navbar";
 const MyProjects = () => {
   const { id } = useParams();
 
+  console.log(Projets[id])
   return (
     <div className="Navbar">
       <Navbar />
@@ -14,22 +15,24 @@ const MyProjects = () => {
         <div className="background"></div>
         <div className="LeftPart">
           <h2> {Projets[id].title}</h2>
-          <p> {Projets[id].description}</p>
+          <p className="Description"> {Projets[id].description}</p>
           <div className="LogicielLiens">
             <div className="LogicielsPart">
               <h2> Logiciels </h2>
               <div className="Logiciels">
-                <img
-                  className="Logiciel"
-                  src={Projets[id].logiciel1}
-                  alt="Logiciel1"
-                />
+                {Projets[id].logiciels.map((element) => (
+                  <img className="Logiciel" src={element.log} alt="Logiciel1" />
+                ))}
               </div>
             </div>
             <div className="LogicielsPart">
               <h2> Liens </h2>
               <div className="Logiciels">
-                <img className="Logiciel" src={Projets[id].Link1} alt="Link1" />
+                {Projets[id].Links.map((element) => (
+                  <a href={element.Linka}>
+                    <img className="Logiciel" src={element.Link} alt="Link1" />
+                  </a>
+                ))}
               </div>
             </div>
           </div>
