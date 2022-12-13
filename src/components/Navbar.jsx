@@ -19,7 +19,7 @@ const Navbar = () => {
               <a href="#Projects" className="Projects">
                 <font color="#F3BD1D">02</font>&nbsp; Projets
               </a>
-              {/* <NavLink to="/projets" activeClassName="Projects">
+              {/* <NavLink to="/" activeClassName="Projects">
                 <font color="#F3BD1D">02</font>&nbsp; Projets
               </NavLink> */}
               <div className="Ligne"></div>
