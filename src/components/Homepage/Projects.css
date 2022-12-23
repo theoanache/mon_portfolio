@@ -1,7 +1,6 @@
 .container {
   background: var(--thirteen-color);
   margin-top: 16%;
-  /* border: 2px solid red; */
   width: 100vw;
  height: auto;
 }
@@ -11,7 +10,6 @@
   background: var(--thirteen-color);
   padding-top : 2%;
   padding-bottom: 2%;
-  /* padding-left: 2%; */
 }
 
 .TextExemple {
@@ -57,7 +55,6 @@
 }
 
 .ButtonVoirPlus:hover {
-  /* background: var(--secondary-color); */
   color: var(--primary-color);
 }
 
@@ -67,13 +64,8 @@
 
 .ProjectsFlex {
   background: none;
-  /* border: 2px solid rgb(17, 121, 9); */
   max-width: 100%;
   height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-content: space-around;
-  flex-wrap: wrap;
 }
 
 .ImgProject {
@@ -84,7 +76,6 @@
 
 .ImgProject:hover {
   scale: 1.1;
-  background-color: black;
 }
 
 @media screen and ( max-width: 600px) {
@@ -105,7 +96,6 @@
 .ImgProject {
   width: 48%;
   height: auto;
-  /* object-fit: fill; */
 }
 };
   

@@ -1,59 +1,101 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./MyProjects.css";
+import { useNavigate, useParams } from "react-router-dom/dist";
+import Projets from "../Homepage/Tools/Data";
 
 const MyProjects = () => {
-    const Projet = [
-      {
-        id: 1,
-        title: "Wild Trattoria",
-        img: "../../assets/Projet_wilda-trattoria.jpg",
-        description: "blablabla",
-        logiciel1: "../../assets/JS.png",
-        logiciel2: "figma",
-        logiciel3: "null",
-        Link1: "../../assets/3D-stitch.jpg",
-        Links2: "web",
-      },
-      {
-        id: 2,
-        title: "Wild Trattoria",
-        img: "../../assets/Projet_wilda-trattoria.jpg",
-        description: "blablabla",
-        logiciel1: "../../assets/JS.png",
-        logiciel2: "figma",
-        logiciel3: "null",
-        Link1: "../../assets/3D-stitch.jpg",
-        Links2: "web",
-      },
-    ];
-    
-    return (
-      <div className="PageProjects">
-        <div className="Left">
-          <h2 className="ProjetTitle"> {Projet[0].title}</h2>
-          <p>{Projet[0].description}</p>
-          <div className="LogicielsLinks">
-            <div className="Logiciels">
-              <h2>Logiciels</h2>
-              <div className="PictoLogiciel">
-                <img src="../../assets/JS.png" alt={Projet[0].title} />
-                <img src="" alt="" />
+  const { id } = useParams();
+
+   const navigate = useNavigate();
+
+ const changeProjet = (where, id) => {
+   if (Number(id) === 0 && where === "back") {
+     return;
+   }
+   where === "next"
+     ? navigate(`/projet/${Number(id) + 1}`)
+     : navigate(`/projet/${id - 1}`);
+ };
+
+
+  console.log(Projets[id])
+  return (
+    <div className="Container_One_Project">
+      <div className="Navbar">
+        <nav className="Nav">
+          <ul className="Menu">
+            <li>
+              <NavLink to="/" activeClassName="Home">
+                <font color="#F3BD1D">01</font>&nbsp; Retour
+              </NavLink>
+              <div className="Ligne"></div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div className="ContenerProjet">
+        <div className="PageProjects">
+          <div className="background"></div>
+          <div className="LeftPart">
+            <h2> {Projets[id].title}</h2>
+            <p className="Description"> {Projets[id].description}</p>
+            <div className="LogicielLiens">
+              <div className="LogicielsPart">
+                <h2> Logiciels </h2>
+                <div className="Logiciels">
+                  {Projets[id].logiciels.map((element) => (
+                    <img
+                      className="Logiciel"
+                      src={element.log}
+                      alt="Logiciel1"
+                    />
+                  ))}
+                </div>
               </div>
-            </div>
-            <div className="Links">
-              <h2>Liens</h2>
-              <div className="PictoLinks">
-                <img src={Projet[0].Link1} alt="" />
-                <img src="" alt="" />
+              <div className="LogicielsPart">
+                <h2> Liens </h2>
+                <div className="Logiciels">
+                  {Projets[id].Links.map((element) => (
+                    <a href={element.Linka}>
+                      <img
+                        className="Logiciel"
+                        src={element.Link}
+                        alt="Link1"
+                      />
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="Rigth">
-          <div>image project</div>
+          <div className="RightPart">
+            <img
+              className="ImgProjet"
+              src={Projets[id].img}
+              alt={Projets[id].title}
+            />
+          </div>
         </div>
       </div>
-    );
+      <div className="Container_button">
+        <button
+          type="button"
+          className="Button"
+          onClick={() => changeProjet("back", id)}
+        >
+          Précedent
+        </button>
+        <button
+          type="button"
+          className="Button"
+          onClick={() => changeProjet("next", id)}
+        >
+          Suivant
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default MyProjects;

@@ -16,16 +16,19 @@ const Navbar = () => {
             </li>
             <div></div>
             <li>
-              <NavLink to="/projets" activeClassName="Projects">
+              <a href="#Projects" className="Projects">
                 <font color="#F3BD1D">02</font>&nbsp; Projets
-              </NavLink>
+              </a>
+              {/* <NavLink to="/" activeClassName="Projects">
+                <font color="#F3BD1D">02</font>&nbsp; Projets
+              </NavLink> */}
               <div className="Ligne"></div>
             </li>
             <div></div>
             <li>
-              <NavLink to="/contact" activeClassName="Contact">
-                <font color="#F3BD1D">03</font>&nbsp; Contact
-              </NavLink>
+              <a href="#Contact" ClassName="Contact">
+                <font color="#F3BD1D">03</font>&nbsp; Contact{" "}
+              </a>
               <div className="Ligne"></div>
             </li>
           </ul>
