@@ -10,7 +10,7 @@ const MyProjects = () => {
 
   console.log(Projets[id])
   return (
-    <div>
+    <div className="Container_One_Project">
       <div className="Navbar">
         <nav className="Nav">
           <ul className="Menu">
@@ -23,39 +23,57 @@ const MyProjects = () => {
           </ul>
         </nav>
       </div>
-      <div className="PageProjects">
-        <div className="background"></div>
-        <div className="LeftPart">
-          <h2> {Projets[id].title}</h2>
-          <p className="Description"> {Projets[id].description}</p>
-          <div className="LogicielLiens">
-            <div className="LogicielsPart">
-              <h2> Logiciels </h2>
-              <div className="Logiciels">
-                {Projets[id].logiciels.map((element) => (
-                  <img className="Logiciel" src={element.log} alt="Logiciel1" />
-                ))}
+      <div className="ContenerProjet">
+        <div className="PageProjects">
+          <div className="background"></div>
+          <div className="LeftPart">
+            <h2> {Projets[id].title}</h2>
+            <p className="Description"> {Projets[id].description}</p>
+            <div className="LogicielLiens">
+              <div className="LogicielsPart">
+                <h2> Logiciels </h2>
+                <div className="Logiciels">
+                  {Projets[id].logiciels.map((element) => (
+                    <img
+                      className="Logiciel"
+                      src={element.log}
+                      alt="Logiciel1"
+                    />
+                  ))}
+                </div>
               </div>
-            </div>
-            <div className="LogicielsPart">
-              <h2> Liens </h2>
-              <div className="Logiciels">
-                {Projets[id].Links.map((element) => (
-                  <a href={element.Linka}>
-                    <img className="Logiciel" src={element.Link} alt="Link1" />
-                  </a>
-                ))}
+              <div className="LogicielsPart">
+                <h2> Liens </h2>
+                <div className="Logiciels">
+                  {Projets[id].Links.map((element) => (
+                    <a href={element.Linka}>
+                      <img
+                        className="Logiciel"
+                        src={element.Link}
+                        alt="Link1"
+                      />
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
+          <div className="RightPart">
+            <img
+              className="ImgProjet"
+              src={Projets[id].img}
+              alt={Projets[id].title}
+            />
+          </div>
         </div>
-        <div className="RightPart">
-          <img
-            className="ImgProjet"
-            src={Projets[id].img}
-            alt={Projets[id].title}
-          />
-        </div>
+      </div>
+      <div className="Container_button">
+        <button type="button" className="Button">
+          Précedent
+        </button>
+        <button type="button" className="Button">
+          Suivant
+        </button>
       </div>
     </div>
   );
