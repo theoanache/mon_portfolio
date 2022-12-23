@@ -1,12 +1,23 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./MyProjects.css";
-import { useParams } from "react-router-dom/dist";
+import { useNavigate, useParams } from "react-router-dom/dist";
 import Projets from "../Homepage/Tools/Data";
-import Navbar from "../Navbar";
 
 const MyProjects = () => {
   const { id } = useParams();
+
+   const navigate = useNavigate();
+
+ const changeProjet = (where, id) => {
+   if (Number(id) === 0 && where === "back") {
+     return;
+   }
+   where === "next"
+     ? navigate(`/projet/${Number(id) + 1}`)
+     : navigate(`/projet/${id - 1}`);
+ };
+
 
   console.log(Projets[id])
   return (
@@ -68,10 +79,18 @@ const MyProjects = () => {
         </div>
       </div>
       <div className="Container_button">
-        <button type="button" className="Button">
+        <button
+          type="button"
+          className="Button"
+          onClick={() => changeProjet("back", id)}
+        >
           Précedent
         </button>
-        <button type="button" className="Button">
+        <button
+          type="button"
+          className="Button"
+          onClick={() => changeProjet("next", id)}
+        >
           Suivant
         </button>
       </div>

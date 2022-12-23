@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import MyProjects from "./components/MyProjects/MyProjects";
 import Datacv from "./components/Homepage/Datacv";
 import Portfolio from "./components/Homepage/Portfolio";
+import Error from "./components/Error.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/cv" element={<Datacv />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </div>
   );
