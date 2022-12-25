@@ -30,8 +30,8 @@ const About = () => {
           Bonjour ! Aprés avoir expérimenté plusieurs types de métiers, j’ai
           décidé d’entreprendre une reconversion professionnelle dans un domaine
           alliant créativité et informatique: le Développement Web. Actuellement
-          en formation développeur full-stack à la Wild Code School de bordeaux depuis Septembre 2022,
-          je recherche un stage et un emploi en entreprise à partir de février 2023.
+          en formation développeur full-stack à la Wild Code School de Bordeaux depuis Septembre 2022,
+          je recherche un stage/emploi en entreprise à partir de février 2023.
         </p>
   
             <NavLink to="/cv" target= "_blank" >

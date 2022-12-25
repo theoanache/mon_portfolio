@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.Menu {
+  padding-right: 3%;
+}
+
 .ContenerProjet{
   display: flex;
   justify-content: center;

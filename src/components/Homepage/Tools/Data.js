@@ -1,6 +1,5 @@
 import JS from "./assets/JS.png";
 import Github from "./assets/github-white.png";
-import Lupa from "./assets/carte-visite-lupa.jpg";
 import Photoshop from "./assets/Adobe-Photoshop-Logo.png";
 import Illustrator from "./assets/Illustrator-Logo.png";
 import CSS from "./assets/CSS3_logo.png";

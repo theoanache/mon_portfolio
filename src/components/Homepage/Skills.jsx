@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import macbook from "../../assets/MacBook-Pro-16-recadrage.png";
-import soft from "../assets/picto-soft_skills.jpg.png";
+import ensemble from "../assets/ensemble-projets.png";
 
 const Skills = () => {
   return (
@@ -17,6 +17,13 @@ const Skills = () => {
             le développement web. Vous trouver un aperçu des différents
             logiciels que j'ai pu utiliser.
           </p>
+          <h3>Soft Skills</h3>
+          <ul>
+            <li> Graphisme : Photoshop, illustrator </li>
+            <li> Systèmes : Git, Github, Windows, Mac </li>
+            <li> 3D : blender, splines </li>
+            <li> Autres : Figma, trello </li>
+          </ul>
         </div>
         <div className="SkillsAnimation">
           <iframe
@@ -30,25 +37,17 @@ const Skills = () => {
       </div>
       <div className="illustration">
         <div className="Macbook">
-          <img className="Macbook" src={macbook} alt="illustration-projet" />
+          <img className="Macbook" src={ensemble} alt="illustration-projet" />
         </div>
         <div className="SoftSkills">
-          <img width="40px" src={soft} alt="picto1" />
-          <h3>Soft Skills</h3>
-          <ul>
-            <li> Graphisme : Photoshop, illustrator </li>
-            <li> Systèmes : Git, Github, Windows </li>
-            <li> 3D : blender, splines </li>
-            <li> Autres : Figma, trello </li>
-          </ul>
-          <img width="40px" src={soft} alt="picto2" />
-          <h2> Savoir-être</h2>
-          <ul>
-            <li> Adaptable </li>
-            <li> Organisé </li>
-            <li> Créatif </li>
-            <li> Rigueur </li>
-          </ul>
+          {/* <img width="40px" src={soft} alt="picto1" /> */}
+          {/* <img width="40px" src={soft} alt="picto2" /> */}
+          <h2> Plateforme Serenity</h2>
+          <p>
+            Projet Wild Code School 3 en cours - En équipe. Création d'une plate-forme santé.Le
+            projet sera réalisé en 2,5 mois en utilisant la méthode Agile SCRUM. 
+            Une présentation du projet sera faite au terme des 2,5 mois devant un jury, des entreprises, ainsi que les différentes personnes de la Wild Code School de Bordeaux.
+          </p>
         </div>
       </div>
     </div>
