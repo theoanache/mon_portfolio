@@ -45,7 +45,7 @@ const Skills = () => {
           <h2> Plateforme Serenity</h2>
           <p>
             Projet Wild Code School 3 en cours - En équipe. Création d'une plate-forme santé.Le
-            projet sera réalisé en 2,5 mois en utilisant la méthode Agile SCRUM. 
+            projet sera réalisé en 2,5 mois en utilisant la méthode Agile SCRUM.
             Une présentation du projet sera faite au terme des 2,5 mois devant un jury, des entreprises, ainsi que les différentes personnes de la Wild Code School de Bordeaux.
           </p>
         </div>
