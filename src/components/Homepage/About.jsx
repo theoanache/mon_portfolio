@@ -16,12 +16,6 @@ const About = () => {
         </div>
       </div>
       <div className="Spline">
-        {/* <iframe
-          src="https://my.spline.design/untitled-76ee8b3cec7dbd92411cfb2f1769397e/"
-          frameborder="0"
-          width="100%"
-          height="100%"
-        ></iframe> */}
         <iframe
           src="https://my.spline.design/untitled-36dc98ff679220412b9aca2947045b5c/"
           frameborder="0"
