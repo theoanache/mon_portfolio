@@ -17,7 +17,7 @@ const About = () => {
       </div>
       <div className="Spline">
         <iframe
-          src="https://my.spline.design/untitled-36dc98ff679220412b9aca2947045b5c/"
+          src="https://my.spline.design/legocopy-0fd63347bea07f720753dc079b355160/"
           frameborder="0"
           width="100%"
           height="100%"
