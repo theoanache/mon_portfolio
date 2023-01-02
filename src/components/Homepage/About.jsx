@@ -17,7 +17,7 @@ const About = () => {
       </div>
       <div className="Spline">
         <iframe
-          src="https://my.spline.design/untitled-76ee8b3cec7dbd92411cfb2f1769397e/"
+          src="https://my.spline.design/legocopy-0fd63347bea07f720753dc079b355160/"
           frameborder="0"
           width="100%"
           height="100%"
@@ -30,16 +30,16 @@ const About = () => {
           Bonjour ! Aprés avoir expérimenté plusieurs types de métiers, j’ai
           décidé d’entreprendre une reconversion professionnelle dans un domaine
           alliant créativité et informatique: le Développement Web. Actuellement
-          en formation développeur full-stack à la Wild Code School de bordeaux,
-          je recherche un stage et un emploi en entreprise.
+          en formation développeur full-stack à la Wild Code School de Bordeaux
+          depuis Septembre 2022, je recherche un stage/emploi en entreprise à
+          partir de février 2023.
         </p>
-  
-            <NavLink to="/cv" target= "_blank" >
+
+        <NavLink to="/cv" target="_blank">
           <button type="button" className="ButtonCv">
             Voir mon CV
-              
           </button>
-            </NavLink>
+        </NavLink>
       </div>
     </div>
   );

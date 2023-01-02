@@ -1,250 +1,47 @@
-.form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.button-envoyez {
-  cursor: pointer;
-  background: transparent;
-  color: var(--primary-color);
-  border: 2px solid var(--secondary-color);
-  margin-top: 2%;
-  padding: 20px 60px;
-  width: auto;
-  text-transform: uppercase;
-  outline: none;
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
-  transition: all 0.3s;
-}
-
-.button-envoyez::before {
-  content: "";
-  position: absolute;
-  background-color: var(--secondary-color);
-  height: 100%;
-  top: 0;
-  left: 0;
-  width: 0%;
-  z-index: -1;
-  transition: all 0.3s;
-}
-
-.button-envoyez:hover {
-  color: var(--primary-color);
-}
-
-.form h1::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  text-align: center;
-  height: 2px;
-  transform: scale(0);
-  transition: transform 0.2s ease-in-out;
-}
-
-.form h1:hover::after {
-  transform: scale(1);
-}
-
-.inputBox {
-  position: relative;
-  margin-top: 1em;
-}
-
-.inputBox input {
-  width: 50vw;
-  padding: 0.8em;
-  border: 3px solid #F3BD1D;
-  color : white;
-  outline: none;
-  font-size: 0.9em;
-  transition: 0.5s;
-  margin-bottom: 1.5em;
-}
-
-.inputBox textarea {
-  width: 50vw;
-  padding: 0.8em;
-  border: 3px solid #F3BD1D;
-  color : white;
-  outline: none;
-  font-size: 0.9em;
-  transition: 0.5s;
-  margin-bottom: 1.5em;
-}
-
-.message {
-  height: 20vh;
-}
-
-.inputBox span {
-  position: absolute;
-  left: 1em;
-  top: 1em;
-  pointer-events: none;
-  font-size: 0.8em;
-  text-transform: uppercase;
-  transition: 0.5s;
-}
-
-.inputBox input:valid ~ span,
-.inputBox input:focus ~ span {
-  color: black;
-  transform: translateX(1.4em) translateY(-1.5em);
-  font-size: 0.7em;
-  padding: 0.1em 2em;
-  background: var(--secondary-color);
-  border-radius: 2em;
-  letter-spacing: 0.5em;
-  font-weight: 700;
-}
-
-.inputBox textarea:valid ~ span,
-.inputBox textarea:focus ~ span {
-  color: black;
-  transform: translateX(1.4em) translateY(-1.5em);
-  font-size: 0.7em;
-  padding: 0.1em 2em;
-  background: var(--secondary-color);
-  border-radius: 2em;
-  letter-spacing: 0.5em;
-  font-weight: 700;
-}
-
-.inputBox textarea:valid ~ span,
-.inputBox textarea:focus ~ span {
-  color: black;
-  transform: translateX(1.4em) translateY(-1.5em);
-  font-size: 0.7em;
-  padding: 0.1em 2em;
-  background: var(--secondary-color);
-  border-radius: 2em;
-  letter-spacing: 0.5em;
-  font-weight: 700;
-}
-
-.inputBox input:valid,
-.inputBox input:focus {
-  border: 3px solid var(--secondary-color);
-}
-
-.inputBox textarea:valid,
-.inputBox textarea:focus {
-  border: 3px solid var(--secondary-color);
-}
-
 .ContainerContact {
   color: var(--primary-color);
-  display: flex;
-  justify-content: center;
-  height: 80vh;
+  height: 50vh;
   width: 100%;
- margin-top: 8%;
+  margin-top: 8%;
   margin-right: 5%;
-  margin-bottom: 12%;
+  margin-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .PrenonsContact {
   font-style: bold;
 }
 
-.ButtonEnvoyer {
-  margin-top: 10%;
-  color: var(--primary-color);
-  border: 1px solid var(--secondary-color);
-  height: 8vh;
-  width: 16vw;
-}
-
 .TextContactMe {
   width: 40vw;
   line-height: 2em;
   text-align: end;
-  padding-right: 10%;
 }
 
-.Logo {
-    padding-right: 10%;
-    margin-top: 8%;
-}
 .SocialNetwork {
-    padding-right: 15%;
-    justify-content: center;
-    background: none;
-}
-.SocialNetwork img{
-  margin-top: 8%;
-  padding: 5%;
-  width: auto;
-  height: 8vh;
-}
-
-.Input {
-  margin-top: 5%;
-  padding-top: 2%;
-  padding-left: 10%;
-  padding-right: 10%;
-  border: 1px solid red;
-}
-
-.Name {
-    height: 10%;
-  display: flex;
-  flex-direction: column;
-}
-.Mail {
-    height: 10%;
-  display: flex;
-  flex-direction: column;
-}
-.Message {
-  display: flex;
-  flex-direction: column;
-}
-
-.Input input {
-  background-color: var(--fourthy-color);
-  height: 3vh;
-}
-
-.Message input {
-  height: 10em;
-}
-
-@media screen and ( max-width: 600px) {
-.ContainerContact {
-    flex-direction: column;
-     height: auto;
-  width: 100%;
-}
-.TextContactMe {
-  width: 95vw;
-  line-height: 2em;
+  width: 40vw;
   text-align: end;
-  padding-right: 5%;
 }
-.Input {
-  padding-top: 10%;
-  padding-left: 10%;
-  padding-right: 10%;
+
+.SocialNetwork img {
+  margin-top: 8%;
+  margin-left: 4%;
+  width: auto;
+  height: 10vh;
 }
-.ButtonEnvoyer {
-  margin-top: 10%;
-  height: 8vh;
-  width: 60vw;
-  justify-content: center;
-  /* margin-left: 12%;
-  margin-right: 10%; */
-  margin-bottom: 30%;
-}
-.ContainerButton {
-    display: flex;
-    justify-content: center;
-}
+
+@media screen and (max-width: 600px) {
+  .ContainerContact {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .TextContactMe {
+    width: 95vw;
+    line-height: 2em;
+    text-align: end;
+    padding-right: 5%;
+  }
 }
