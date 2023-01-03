@@ -11,18 +11,18 @@ import Autodesk from "./assets/autodesk-3ds-max-small-social-400.png";
 import Spline from "./assets/spline3d.png";
 import Internet from "./assets/internet-logo-white.png";
 import Youtube from "./assets/Youtube_logo.png";
-import Wilda from "./assets/Projet_wilda-trattoria.jpg";
-import Wild_festival from "./assets/wild-festival.jpg";
-import Affiche_kizomba from "./assets/affiche-kizomba-mayotte.jpg";
-import Anim_meca from "./assets/anim-meca.jpg";
-import Casque from "./assets/casque-motoblouz.jpg";
-import BachataLoca from "./assets/logo-bachata-loca.jpg";
-import TravelMito from "./assets/hackathon-travelmito.png.jpg";
-import Escalator from "./assets/Projet_3D-escalator.jpg";
-import Casquette from "./assets/casquette_adrenaline.jpg";
-import Acucar from "./assets/roll-up-acucar.jpg";
-import Enah from "./assets/logo-enah-consulting.jpg";
-import Reversal from "./assets/reversal.jpg";
+import Wilda from "./assets/wilda_trattoria_site.jpg";
+import Wild_festival from "./assets/wild_festival_site.jpg";
+import Affiche_kizomba from "./assets/kizomba_soiree_affiche.jpg";
+import Anim_meca from "./assets/anim_meca_3D.jpg";
+import Casque from "./assets/pimp_my_helmet_concours.jpg";
+import BachataLoca from "./assets/bachata_loca_logo.jpg";
+import TravelMito from "./assets/travel_mito_hackathon.jpg";
+import Escalator from "./assets/escalator_3D.jpg";
+import Casquette from "./assets/pyrenee_adrenaline_logo.jpg";
+import Acucar from "./assets/acucar_roll_up.jpg";
+import Enah from "./assets/enah_consulting_logo.jpg";
+import Reversal from "./assets/reversal_projet.jpg";
 
 const Projets = [
   {

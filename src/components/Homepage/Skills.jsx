@@ -1,6 +1,5 @@
 import React from "react";
 import "./Skills.css";
-import macbook from "../../assets/MacBook-Pro-16-recadrage.png";
 import ensemble from "../assets/ensemble-projets.png";
 
 const Skills = () => {
