@@ -24,15 +24,15 @@ const Skills = () => {
             <li> Autres : Figma, trello </li>
           </ul>
         </div>
-        {/* <div className="SkillsAnimation">
+        <div className="SkillsAnimation">
           <iframe
             src="https://my.spline.design/skills-5ea1bd3ba43f5fb28f3955b7d6ae02a5/"
             frameborder="0"
             width="100%"
             height="100%"
           ></iframe>
-        </div> */}
-        
+        </div>
+
         <div className="cacheButton"></div>
       </div>
       <div className="illustration">
