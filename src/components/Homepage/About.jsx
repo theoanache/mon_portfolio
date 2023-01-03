@@ -15,14 +15,14 @@ const About = () => {
           <h1>Développeur Full-Stack</h1>
         </div>
       </div>
-      <div className="Spline">
+      {/* <div className="Spline">
         <iframe
           src="https://my.spline.design/legocopy-0fd63347bea07f720753dc079b355160/"
           frameborder="0"
           width="100%"
           height="100%"
         ></iframe>
-      </div>
+      </div> */}
       <div className="Scroll"></div>
       <div className="APropos">
         <h2> A Propos</h2>
