@@ -13,7 +13,7 @@ const Skills = () => {
           <p>
             Etant attiré par l'univers 3D, c'est avec évidence que j'ai cherchée
             à allier mes connaissances obtenues au sein de l'école Pôle 3D avec
-            le développement web. Vous trouver un aperçu des différents
+            le développement web. Vous trouvez un aperçu des différents
             logiciels que j'ai pu utiliser.
           </p>
           <h3>Soft Skills</h3>

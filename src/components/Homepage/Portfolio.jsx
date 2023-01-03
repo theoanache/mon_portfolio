@@ -1,5 +1,5 @@
 import React from 'react';
-import Book from "../../assets/Book-motivation.png";
+import Book from "../../assets/portfolio_motivation.jpg";
 import './Portfolio.css';
 
 const Portfolio = () => {
