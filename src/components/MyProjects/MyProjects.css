@@ -86,7 +86,7 @@
 
 .Container_button {
   margin-top: 10px;
-  
+  gap: 0%;
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -126,4 +126,20 @@
 
 .Button:hover::before {
   width: 100%;
+}
+
+@media screen and ( max-width: 600px) {
+  .PageProjects {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+.Container_button {
+  width: 80%;
+}
+.Description {
+  font-size: 12px;
+}
 }

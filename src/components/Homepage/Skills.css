@@ -25,6 +25,7 @@
 .SkillsAnimation {
     width: 100vw ;
     height: 60vh;
+    opacity: 1;
 }
 
 .illustration {
@@ -64,5 +65,10 @@
 
 .SoftSkills p {
     text-align: center;
+}
+.SkillsAnimation {
+    height: 30vh;
+    width: 0vw;
+    opacity: 0;
 }
 }
