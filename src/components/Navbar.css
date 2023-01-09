@@ -1,5 +1,4 @@
 .Navbar {
-  /* color: var(--primary-color); */
   display:flex;
   justify-content: end;
   gap: 5%;
@@ -11,7 +10,6 @@
   position: fixed;
   z-index: 10;
   width: 100vw;
-  /* background: transparent; */
   backdrop-filter: blur(2px);
 }
 
@@ -30,7 +28,6 @@ a {
   background: transparent;
   text-decoration: none;
   color: var(--primary-color);
-  /* display: block; */
 }
 
 .Ligne {
