@@ -1,13 +1,13 @@
 .SkillsBox {
-  color: white;
-  display: flex;
-  justify-content: center;
-  margin-left: 8em;
-  margin-right: 8em;
-  margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 10em; */
 }
 
 .SkillsText {
+    color: white;
     width: 65vw ;
     height: 40vh;
     line-height: 2em;
@@ -44,10 +44,10 @@
 }
 
 @media screen and ( max-width: 600px) {
-    /* .SkillsBox {
+    .SkillsBox {
   flex-direction: column;
   margin-left: 5em;
-} */
+}
 .SkillsText {
     width: 60vw ;
     height: 100vh;
