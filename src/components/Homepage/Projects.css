@@ -1,0 +1,102 @@
+.container {
+  background: var(--thirteen-color);
+  margin-top: 16%;
+  width: 99vw;
+ height: auto;
+}
+
+.ContainerChildren {
+  display: flex;
+  width: 100%;
+  background: var(--thirteen-color);
+  padding-top : 2%;
+  padding-bottom: 2%;
+}
+
+.TextExemple {
+  margin-left: 15vmin;
+  margin-right: 15vmin;
+  background: none;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  line-height: 2em;
+}
+
+.TextExemple p {
+  background: none;
+}
+
+.ButtonVoirPlus {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  margin-top: 2%;
+  padding: 20px 100px;
+  width: auto;
+  text-transform: uppercase;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: all 0.3s;
+}
+.ButtonVoirPlus::before {
+  content: "";
+  position: absolute;
+  background-color: var(--secondary-color);
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 0%;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.ButtonVoirPlus:hover {
+  color: var(--primary-color);
+}
+
+.ButtonVoirPlus:hover::before {
+  width: 100%;
+}
+
+.ProjectsFlex {
+  background: none;
+  max-width: 100%;
+  height: auto;
+}
+
+.ImgProject {
+  border: 3px solid  var(--thirteen-color);
+  width: 24%;
+  height: auto;
+}
+
+.ImgProject:hover {
+  scale: 1.1;
+}
+
+@media screen and ( max-width: 600px) {
+ .ContainerChildren {
+  flex-direction: column;
+  height: auto;
+ }
+ 
+ .ProjectsFlex::-webkit-scrollbar {
+   display: none;
+ }
+
+ .ProjectsFlex {
+  margin-top: 10%;
+  overflow-x: auto;
+ }
+
+.ImgProject {
+  width: 48%;
+  height: auto;
+}
+};
+  

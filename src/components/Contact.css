@@ -1,0 +1,53 @@
+.ContainerContact {
+  color: var(--primary-color);
+  height: 50vh;
+  width: 100%;
+  margin-top: 8%;
+  margin-right: 5%;
+  margin-bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PrenonsContact {
+  font-style: bold;
+}
+
+.TextContactMe {
+  width: 40vw;
+  line-height: 2em;
+  text-align: end;
+}
+
+.SocialNetwork {
+  width: 40vw;
+  text-align: end;
+}
+
+.SocialNetwork img {
+  margin-top: 8%;
+  margin-left: 4%;
+  width: auto;
+  height: 10vh;
+}
+
+@media screen and (max-width: 600px) {
+  .ContainerContact {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .TextContactMe {
+    width: 95vw;
+    line-height: 2em;
+    text-align: end;
+    padding-right: 5%;
+  }
+  .SocialNetwork img {
+  margin-top: 8%;
+  margin-left: 4%;
+  width: auto;
+  height: 5vh;
+}
+}

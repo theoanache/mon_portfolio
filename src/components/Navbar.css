@@ -1,0 +1,47 @@
+.Navbar {
+  display:flex;
+  justify-content: end;
+  gap: 5%;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+
+.Nav {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  backdrop-filter: blur(2px);
+}
+
+.Menu {
+  background: transparent;
+  display:flex;
+  justify-content: end;
+  gap: 5%;
+  margin-top: 2%;
+  margin-right: 5%;
+  list-style: none;
+}
+
+
+a {
+  background: transparent;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.Ligne {
+  margin-top: 5%;
+  height: 2px;
+  background-color: var(--secondary-color);
+  width: 0%;
+  transition: all 0.5s;
+}
+
+li:hover>div{
+  width: 100%;
+}
+
+li, font {
+  background: transparent;
+}

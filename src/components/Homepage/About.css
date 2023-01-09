@@ -1,0 +1,107 @@
+.Spline {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-top: 5%;
+  opacity: 1;
+}
+
+.Scroll {
+  height: 50px;
+  width: 180px;
+  color: white;
+  z-index: 3;
+  position: absolute;
+  margin-left: 88%;
+  margin-top: -5%;
+}
+
+.Container {
+  width: 40%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  position: absolute;
+  z-index: 2;
+  background: none;
+  margin-top: 5%;
+}
+
+.About {
+  padding-top: 10%;
+  background: none;
+  margin-left: 10%;
+}
+
+#Top h1 {
+  background: none;
+}
+
+.APropos {
+  color: var(--primary-color);
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+#Description {
+  margin-top: 2%;
+  margin-right: 10%;
+  line-height: 2em;
+}
+
+.ButtonCv {
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  margin-top: 2%;
+  padding: 30px 80px;
+  width: auto;
+  text-transform: uppercase;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: all 0.3s;
+}
+.ButtonCv::before {
+  content: "";
+  position: absolute;
+  background-color: var(--secondary-color);
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 0%;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.ButtonCv:hover {
+  color: var(--primary-color);
+}
+
+.ButtonCv:hover::before {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .ButtonCv {
+    width: 48vw;
+  }
+
+  .About {
+    margin-left: 5%;
+  }
+
+  .APropos {
+    margin-left: 5%;
+  }
+  .Spline {
+    opacity: 0;
+     height: 40vh;
+     width: 0vw;
+  }
+  .Container {
+  width: 90%;
+}
+} ;
