@@ -3,7 +3,6 @@ import "./About.css";
 import { NavLink } from "react-router-dom";
 
 const About = () => {
-
   return (
     <div id="Top">
       <div className="Container">
@@ -42,7 +41,6 @@ const About = () => {
           </button>
         </NavLink>
       </div>
-      
     </div>
   );
 };

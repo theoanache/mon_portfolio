@@ -84,7 +84,6 @@
   width: 100%;
 }
 
-
 @media screen and (max-width: 600px) {
   .ButtonCv {
     width: 48vw;
@@ -99,10 +98,10 @@
   }
   .Spline {
     opacity: 0;
-     height: 40vh;
-     width: 0vw;
+    height: 40vh;
+    width: 0vw;
   }
   .Container {
-  width: 90%;
-}
+    width: 90%;
+  }
 } ;

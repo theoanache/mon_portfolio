@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 :root {
-  --background : #010813;
+  --background: #010813;
   --primary-color: white;
-  --secondary-color: #F3BD1D;
+  --secondary-color: #f3bd1d;
   --thirteen-color: #212121;
   --fourthy-color: #989898;
-  --fivethy-color:#212121;
-  
+  --fivethy-color: #212121;
 }
 
 * {

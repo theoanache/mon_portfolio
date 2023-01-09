@@ -2,14 +2,14 @@
   background: var(--thirteen-color);
   margin-top: 8em;
   width: 100vw;
- height: auto;
+  height: auto;
 }
 
 .ContainerChildren {
   display: flex;
   width: 100vw;
   background: var(--thirteen-color);
-  padding-top : 2em;
+  padding-top: 2em;
   padding-bottom: 2em;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .ImgProject {
-  border: 3px solid  var(--thirteen-color);
+  border: 3px solid var(--thirteen-color);
   width: 24%;
   height: auto;
 }
@@ -79,24 +79,23 @@
   scale: 1.1;
 }
 
-@media screen and ( max-width: 600px) {
- .ContainerChildren {
-  flex-direction: column;
-  height: auto;
- }
- 
- .ProjectsFlex::-webkit-scrollbar {
-   display: none;
- }
+@media screen and (max-width: 600px) {
+  .ContainerChildren {
+    flex-direction: column;
+    height: auto;
+  }
 
- .ProjectsFlex {
-  margin-top: 10%;
-  overflow-x: auto;
- }
+  .ProjectsFlex::-webkit-scrollbar {
+    display: none;
+  }
 
-.ImgProject {
-  width: 48%;
-  height: auto;
-}
-};
-  
+  .ProjectsFlex {
+    margin-top: 10%;
+    overflow-x: auto;
+  }
+
+  .ImgProject {
+    width: 48%;
+    height: auto;
+  }
+} ;

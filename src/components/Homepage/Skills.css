@@ -1,79 +1,85 @@
 .Box {
-    width: 100vw;
+  width: 100vw;
 }
 
 .SkillsBox {
-    display: flex;
-    justify-content: center;
-    padding-left: 6em;
-    padding-right: 6em;
-    padding-top: 10em;
+  display: flex;
+  justify-content: center;
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-top: 10em;
 }
 
 .SkillsText {
-    color: white;
-    width: 65vw ;
-    height: 40vh;
-    line-height: 2em;
+  color: white;
+  width: 65vw;
+  height: 40vh;
+  line-height: 2em;
 }
 
 .SkillsAnimation {
-    width: 100vw ;
-    height: 60vh;
-    opacity: 1;
+  width: 100vw;
+  height: 60vh;
+  opacity: 1;
 }
 
 .illustration {
-    margin-top: 6em;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 6em;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Macbook {
-    width: 50vw;
-    height: auto;
+  width: 50vw;
+  height: auto;
 }
 
 .SoftSkills {
-    color: var(--primary-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5%;
-    line-height: 2em;
-    padding-left: 8em;
-    width: 45vw;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  line-height: 2em;
+  padding-left: 8em;
+  width: 45vw;
 }
 
-@media screen and ( max-width: 600px) {
-    .SkillsBox {
-  flex-direction: column;
-  margin-left: 5em;
-}
-.SkillsText {
-    width: 60vw ;
-    height: 100vh;
-    line-height: 2em;
-}
-.illustration {
+@media screen and (max-width: 600px) {
+  .SkillsBox {
     flex-direction: column;
-}
-.Macbook {
+    margin-left: 2em;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .SkillsText {
+    margin-left: 5px;
+    width: 90vw;
+    line-height: 2em;
+  }
+  .illustration {
+    flex-direction: column;
+  }
+  .Macbook {
     width: 100vw;
     height: auto;
-}
+  }
 
-.SoftSkills p {
+  .SoftSkills p {
     text-align: center;
     font-size: medium;
-}
-.SkillsAnimation {
+  }
+  .SkillsAnimation {
     height: 30vh;
     width: 0vw;
     opacity: 0;
-}
+  }
+  .SoftSkills {
+    width: 90vw;
+    padding-left: 0em;
+  }
 }
 /* @media screen and ( max-width: 800px) {
 .cacheButton {

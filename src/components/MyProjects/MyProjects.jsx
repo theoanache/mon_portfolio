@@ -7,19 +7,18 @@ import Projets from "../Homepage/Tools/Data";
 const MyProjects = () => {
   const { id } = useParams();
 
-   const navigate = useNavigate();
+  const navigate = useNavigate();
 
- const changeProjet = (where, id) => {
-   if (Number(id) === 0 && where === "back") {
-     return;
-   }
-   where === "next"
-     ? navigate(`/projet/${Number(id) + 1}`)
-     : navigate(`/projet/${id - 1}`);
- };
+  const changeProjet = (where, id) => {
+    if (Number(id) === 0 && where === "back") {
+      return;
+    }
+    where === "next"
+      ? navigate(`/projet/${Number(id) + 1}`)
+      : navigate(`/projet/${id - 1}`);
+  };
 
-
-  console.log(Projets[id])
+  console.log(Projets[id]);
   return (
     <div className="Container_One_Project">
       <div className="Navbar">

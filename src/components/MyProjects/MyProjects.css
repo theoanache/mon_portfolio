@@ -7,23 +7,23 @@
   padding-right: 3%;
 }
 
-.ContenerProjet{
+.ContenerProjet {
   display: flex;
   justify-content: center;
 }
 
 .PageProjects {
-    margin-top: 6%;
-    width: 80%;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    color: var(--primary-color);
-    background:var(--fivethy-color);
+  margin-top: 6%;
+  width: 80%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  background: var(--fivethy-color);
 }
 
 .LeftPart {
-    margin-left: 2%;
+  margin-left: 2%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -32,37 +32,37 @@
 }
 
 .Description {
-    background: transparent;
-    font-size: 16px;
-    color: grey;
-    line-height: 2em;
+  background: transparent;
+  font-size: 16px;
+  color: grey;
+  line-height: 2em;
 }
 
 .LeftPart h2 {
-    background: transparent;
+  background: transparent;
 }
 
 .LogicielLiens {
-    display: flex;
-    justify-content: space-around;
-    background: transparent;
+  display: flex;
+  justify-content: space-around;
+  background: transparent;
 }
 
 .LogicielsPart {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent;
 }
 
 .Logiciels {
-    background:var(--fivethy-color);
+  background: var(--fivethy-color);
 }
 
-.Logiciel{
-    height: 40px;
-    background:var(--fivethy-color);
-    padding-left: 3px;
+.Logiciel {
+  height: 40px;
+  background: var(--fivethy-color);
+  padding-left: 3px;
 }
 
 .RightPart {
@@ -78,10 +78,10 @@
 }
 
 .Container_One_Project {
-  display:flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Container_button {
@@ -128,7 +128,7 @@
   width: 100%;
 }
 
-@media screen and ( max-width: 600px) {
+@media screen and (max-width: 600px) {
   .PageProjects {
     display: flex;
     flex-direction: column-reverse;
@@ -136,10 +136,10 @@
     align-items: center;
     height: 80vh;
   }
-.Container_button {
-  width: 80%;
-}
-.Description {
-  font-size: 12px;
-}
+  .Container_button {
+    width: 80%;
+  }
+  .Description {
+    font-size: 12px;
+  }
 }

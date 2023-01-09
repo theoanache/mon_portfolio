@@ -45,9 +45,10 @@
     padding-right: 5%;
   }
   .SocialNetwork img {
-  margin-top: 8%;
-  margin-left: 4%;
-  width: auto;
-  height: 5vh;
-}
+    margin-top: 8%;
+    margin-left: 4%;
+    width: auto;
+    height: 5vh;
+    text-align:none;
+  }
 }
