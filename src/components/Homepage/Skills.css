@@ -1,14 +1,14 @@
-.ContainerSkills {
-  color: var(--primary-color);
+.ContainerSkill {
+  color: white;
   display: flex;
   justify-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 16%;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 10em;
 }
 
 .SkillsText {
-    width: 60vw ;
+    width: 65vw ;
     height: 40vh;
     line-height: 2em;
 }
@@ -20,7 +20,7 @@
 }
 
 .illustration {
-    margin-top:8%;
+    margin-top: 6em;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -39,14 +39,19 @@
     align-items: center;
     padding: 5%;
     line-height: 2em;
-    padding-left: 8%;
+    padding-left: 8em;
     width: 45vw;
 }
 
 @media screen and ( max-width: 600px) {
     .ContainerSkills {
   flex-direction: column;
-  margin-left: 5%;
+  margin-left: 5em;
+}
+.SkillsText {
+    width: 60vw ;
+    height: 100vh;
+    line-height: 2em;
 }
 .illustration {
     flex-direction: column;
@@ -58,6 +63,7 @@
 
 .SoftSkills p {
     text-align: center;
+    font-size: medium;
 }
 .SkillsAnimation {
     height: 30vh;
@@ -65,7 +71,7 @@
     opacity: 0;
 }
 }
-@media screen and ( max-width: 800px) {
+/* @media screen and ( max-width: 800px) {
 .cacheButton {
   height: 85px;
   width: 180px;
@@ -74,4 +80,4 @@
   margin-left: 60%;
   margin-top: 71%;
 }
-}
+} */
