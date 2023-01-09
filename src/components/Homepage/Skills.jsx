@@ -32,7 +32,6 @@ const Skills = () => {
             height="100%"
           ></iframe>
         </div>
-        {/* <div className="cacheButton"></div> */}
       </div>
       <div className="illustration">
         <div className="Macbook">

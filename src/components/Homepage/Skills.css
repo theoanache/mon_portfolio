@@ -1,12 +1,3 @@
-.cacheButton {
-  height: 85px;
-  width: 180px;
-  z-index: 3;
-  position: absolute;
-  margin-left: 68%;
-  margin-top: 22%;
-}
-
 .ContainerSkills {
   color: var(--primary-color);
   display: flex;
