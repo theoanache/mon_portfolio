@@ -12,7 +12,7 @@ const Homepage = () => {
 
   return (
     <div>
-      {/* <Loader /> */}
+      <Loader />
       <Navbar />
       <About />
       <Skills />
