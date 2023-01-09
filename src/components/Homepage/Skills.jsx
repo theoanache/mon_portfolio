@@ -4,7 +4,7 @@ import ensemble from "../assets/ensemble-projets.png";
 
 const Skills = () => {
   return (
-    <div>
+    <div className="Box">
       <div className="SkillsBox">
         <div className="SkillsText">
           <h2>

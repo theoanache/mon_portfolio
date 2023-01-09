@@ -1,9 +1,13 @@
+.Box {
+    width: 100vw;
+}
+
 .SkillsBox {
     display: flex;
     justify-content: center;
-    /* margin-left: 8em;
-    margin-right: 8em;
-    margin-top: 10em; */
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 10em;
 }
 
 .SkillsText {
