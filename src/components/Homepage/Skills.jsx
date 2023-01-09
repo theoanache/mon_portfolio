@@ -32,15 +32,13 @@ const Skills = () => {
             height="100%"
           ></iframe>
         </div>
-        <div className="cacheButton"></div>
+        {/* <div className="cacheButton"></div> */}
       </div>
       <div className="illustration">
         <div className="Macbook">
           <img className="Macbook" src={ensemble} alt="illustration-projet" />
         </div>
         <div className="SoftSkills">
-          {/* <img width="40px" src={soft} alt="picto1" /> */}
-          {/* <img width="40px" src={soft} alt="picto2" /> */}
           <h2> Plateforme Serenity</h2>
           <p>
             Projet Wild Code School 3 en cours - En équipe. Création d'une plate-forme santé.Le

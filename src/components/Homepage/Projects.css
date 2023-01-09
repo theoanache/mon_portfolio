@@ -1,26 +1,27 @@
 .container {
   background: var(--thirteen-color);
   margin-top: 16%;
-  width: 100vw;
+  width: 99vw;
  height: auto;
 }
 
 .ContainerChildren {
   display: flex;
+  width: 100%;
   background: var(--thirteen-color);
   padding-top : 2%;
   padding-bottom: 2%;
 }
 
 .TextExemple {
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 15vmin;
+  margin-right: 15vmin;
   background: none;
   color: var(--primary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 5%;
+  gap: 10px;
   line-height: 2em;
 }
 

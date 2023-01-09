@@ -4,7 +4,7 @@
   z-index: 3;
   position: absolute;
   margin-left: 68%;
-  margin-top: 21%;
+  margin-top: 22%;
 }
 
 .ContainerSkills {
@@ -32,6 +32,7 @@
     margin-top:8%;
     width: 100vw;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -48,6 +49,7 @@
     padding: 5%;
     line-height: 2em;
     padding-left: 8%;
+    width: 45vw;
 }
 
 @media screen and ( max-width: 600px) {
@@ -70,5 +72,15 @@
     height: 30vh;
     width: 0vw;
     opacity: 0;
+}
+}
+@media screen and ( max-width: 800px) {
+.cacheButton {
+  height: 85px;
+  width: 180px;
+  z-index: 3;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 71%;
 }
 }
