@@ -21,6 +21,7 @@ const About = () => {
           frameborder="0"
           width="100%"
           height="100%"
+          title="lego3D"
         ></iframe>
       </div>
       <div className="Scroll"></div>
