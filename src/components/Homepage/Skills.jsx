@@ -30,7 +30,7 @@ const Skills = () => {
             frameborder="0"
             width="100%"
             height="100%"
-            title="skills"
+            title="skillsMap"
           ></iframe>
         </div>
       </div>
