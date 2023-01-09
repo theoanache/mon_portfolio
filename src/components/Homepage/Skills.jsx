@@ -5,7 +5,7 @@ import ensemble from "../assets/ensemble-projets.png";
 const Skills = () => {
   return (
     <div>
-      <div className="ContainerSkill">
+      <div className="SkillsBox">
         <div className="SkillsText">
           <h2>
             <font color="#F3BD1D">Compétences</font> et logiciels
